@@ -1,0 +1,1 @@
+const box=document.getElementById('searchBox');const games=[...document.querySelectorAll('.game')];const none=document.getElementById('none');if(box)box.addEventListener('input',()=>{let q=box.value.toLowerCase().trim(),n=0;games.forEach(g=>{let ok=g.dataset.s.includes(q);g.classList.toggle('hidden',!ok);if(ok)n++});none.classList.toggle('hidden',n>0)});
