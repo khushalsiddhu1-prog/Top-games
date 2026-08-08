@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search Games | Top Games</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="logo">🎮 TOP GAMES</div>
+  <nav><a href="index.html">Home</a><a class="active" href="search.html">Search Games</a><a href="about.html">About</a></nav>
+</header>
+
+<main class="page">
+<h1>🔎 SEARCH GAMES</h1>
+<p>Type a game name or genre.</p>
+<input id="searchBox" class="search" type="text" placeholder="Search games...">
+
+<div id="gameList" class="game-grid">
+  <article class="game" data-name="minecraft"><span>⛏️</span><h3>Minecraft</h3><p>Sandbox</p></article>
+  <article class="game" data-name="fortnite"><span>🔫</span><h3>Fortnite</h3><p>Battle Royale</p></article>
+  <article class="game" data-name="valorant"><span>🎯</span><h3>Valorant</h3><p>FPS</p></article>
+  <article class="game" data-name="rocket league"><span>🚗</span><h3>Rocket League</h3><p>Sports</p></article>
+  <article class="game" data-name="roblox"><span>🧱</span><h3>Roblox</h3><p>Adventure</p></article>
+  <article class="game" data-name="gta"><span>🏙️</span><h3>GTA</h3><p>Open World</p></article>
+</div>
+<p id="noResults" class="hidden">No games found.</p>
+</main>
+
+<footer>© 2026 Top Games • Created by <b>Khushal Siddhu</b></footer>
+<script src="script.js"></script>
+</body>
+</html>
